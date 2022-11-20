@@ -1,0 +1,45 @@
+.crsl-container{
+    position: relative;
+    width: 100%;
+    display: grid;
+    place-items:center;
+    font-size:xx-large;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.crsl-head{
+    width: 85%;
+    float: left;
+    
+}
+.crsl-slide{
+  display:flex;
+  width: 90%;
+  height: 90%;
+  animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-540px * 3));
+    }
+
+}
+.slide{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 4px;
+
+}
+#crsl{
+
+    height: 950px;
+    width: 850px;
+    padding: 2%;
+}
