@@ -17,7 +17,8 @@ document.getElementById("head-one").innerHTML = `<div class="logo">
 <h2 class="head-nav-item">
     <a href="/pages/Press.html">Press</a>
 </h2>
-<a href="#"> <img src="/assets/Icon/images.jpg" class="menu-button" width="20%" height="5%"></a>
+   
+
 </ul>`;
 
 document.getElementById("foot-one").innerHTML = `  <div class="footer-part1">
@@ -40,6 +41,7 @@ document.getElementById("foot-one").innerHTML = `  <div class="footer-part1">
         <a href="mailto:mail@discoverylandco.com">mail@discoverylandco.com</a>
     </h3>
 </div>
+
 <ul class="foot-nav-menu1">
     <h3 class="foot-nav-item">
         <a href="/pages/AboutDLC.html">About DLC</a>
@@ -57,7 +59,10 @@ document.getElementById("foot-one").innerHTML = `  <div class="footer-part1">
         <a href="/pages/Press.html">Press</a>
     </h3>
 </ul>
+ 
+
 <ul class="foot-nav-menu2">
+<a href="" ><img src="/assets/Icon/images.jpg" width="15%" height="5%"></a> 
     <h3 class="foot-nav-item">
         <a href="/pages/Magazine.html">Magazine</a>
     </h3>
@@ -68,7 +73,7 @@ document.getElementById("foot-one").innerHTML = `  <div class="footer-part1">
         <a href="/pages/Foundation.html">Foundation</a>
     </h3>
     <h3 class="foot-nav-item">
-        <a href="/pages/Company.html">Comapny</a>
+        <a href="/pages/Company.html">Company</a>
     </h3>
     <h3 class="foot-nav-item">
         <a href="https://discoverylandco.com/contact">Contact</a>
